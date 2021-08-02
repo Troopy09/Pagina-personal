@@ -1,0 +1,100 @@
+:root{
+    /* Colores */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secundary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black-1: #282623;
+    --gray: #BABABA;
+    --off-white: #FAF8F7;
+    --white: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--warm-black-1);
+    color: white;
+}
+
+header{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row-reverse;
+    padding:50px 0 20px 0;
+}
+.nav__logo{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-image: url(/assets/icons/icons8-menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-logo h1 a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: white;
+}
+.nav__option{
+    display: none;
+    font-size: 2.2rem;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: white; 
+}
+.nav__option:hover{
+    border-bottom: white dotted;
+    
+}
+
+/*---------*/
+
+
+.section__container{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.section__container-information{
+    padding: 80px 0 0 0;
+	width: 100%;
+    text-align: center;
+}
+.animate{
+    font-size: 6.4rem;
+    cursor: pointer;
+}
+.animate:hover{
+    color: #dfa216;
+}
+.section__container-information p{
+    font-size: 1.6rem;
+    padding: 20px 0;
+}
+.section__container-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+.logo{
+    width: 70%;
+}
